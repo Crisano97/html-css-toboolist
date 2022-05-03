@@ -73,8 +73,50 @@ body {
      border: 1px solid lightgray;
 }
 
+.spazio {
+    line-height: 40px;
+}
+
 .list {
+    padding-top: 20px;
     margin-top: 2px;
-    height: 200px;
+    height: 400px;
     background-color: white;
+}
+
+#arrow {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.section {
+    display: inline-block;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.verificato {
+    display: inline-block;
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    
+    border-radius: 50%;
+}
+
+.target {
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.editorial {
+    background-color: rgb(48, 190, 255);
+}
+
+.goals {
+    background-color: rgb(176, 48, 255);
 }
