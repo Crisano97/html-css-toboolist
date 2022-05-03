@@ -101,8 +101,14 @@ body {
 .verificato {
     display: inline-block;
     color: lightgreen;
-    border: 1px solid lightgreen;
-    
+    border: 1px solid lightgreen;  
+    border-radius: 50%;
+}
+
+.errato {
+    display: inline-block;
+    color: rgb(232, 102, 90);
+    border: 1px solid rgb(232, 102, 90);  
     border-radius: 50%;
 }
 
@@ -119,4 +125,12 @@ body {
 
 .goals {
     background-color: rgb(176, 48, 255);
+}
+
+.recruit {
+    background-color: rgba(46, 194, 120, 0.659);
+}
+
+.mobile {
+    background-color: rgba(241, 175, 33, 0.955);
 }
