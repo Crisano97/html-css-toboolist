@@ -8,6 +8,8 @@ body {
     background-color: rgb(240, 239, 239);
 }
 
+/* header */
+
 .header {
     height: 100px;
     background-color: white;
@@ -30,15 +32,45 @@ body {
     font-weight: bolder;
 }
 
+/* main */
+
 .corp {
     width:75%;
     margin: 0 auto;
     margin-top: 50px;
 }
 
+
+
 .adds {
     height: 50px;
     background-color: white;
+}
+
+.container {
+    width:90%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.button {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#add-tasks {
+    background-color: rgb(48, 190, 255);
+    color: white;
+    border: none;
+
+}
+
+#add-section {
+     color: lightgrey;
+     background-color: transparent;
+     border: 1px solid lightgray;
 }
 
 .list {
