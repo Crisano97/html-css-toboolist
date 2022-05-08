@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
+    font-size: 18px;
+}
+
+header {
+    height: 70px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+#logo-text {
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.actions {
+    padding: 10px 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-filled {
+    border: 1px solid #14aaf5;
+    background-color: #14aaf5;
+    color: white;
+}
+
+.btn-empty {
+    border: 1px solid #c4cbd0;
+    background-color: white;
+    color: #c4cbd0;
+}
+
+.tasks {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3px;
+    padding: 20px 50px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+li {
+    list-style: none;
+    line-height: 35px;
+}
+
+li h3::before {
+    content: '\25BE';
+    font-size: 15px;
+} 
+
+.circle::before {
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.checked {
+    color: #2cc6ab;
+}
+
+li .circle.checked::before {
+    content: '\2714';
+    color: #2cc6ab;
+}
+
+.delete {
+    color: #ff0000;
+}
+
+li .circle.delete::before {
+    content: '\2718';
+    color: #ff0000;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.tag-type-1 {
+    background-color: #09a9ed;
+}
+
+.tag-type-2 {
+    background-color: #ab5def;
+}
+
+.tag-type-3 {
+    background-color: #2cc6ab;
+}
+
+.tag-type-4 {
+    background-color: #ff9b00;
+}
+
+.tag-type-5 {
+    background-color: #ec4a9d;
+}
+
+.tag-type-6 {
+    background-color: #a3d116;
+}
